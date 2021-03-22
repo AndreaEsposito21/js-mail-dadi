@@ -10,12 +10,13 @@ var emailConfermata = false;
 for (var i = 0; i < mailConsentite.length; i++) {
     var emailGiusta = mailConsentite[i];
 
-    if (emailGiusta == mailUtente) {
+    if (emailGiusta === mailUtente) {
         emailConfermata = true;
     }  
 }
 
-if (emailConfermata == true) {
+// Risposta a schermo se email valida oppure no
+if (emailConfermata === true) {
     alert("Email Valida");
 } else {
     alert("Email Non Valida");
