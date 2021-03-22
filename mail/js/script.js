@@ -14,6 +14,7 @@ for (var i = 0; i < mailConsentite.length; i++) {
         emailConfermata = true;
     }  
 }
+console.log(emailConfermata);
 
 // Risposta a schermo se email valida oppure no
 if (emailConfermata === true) {
@@ -21,3 +22,4 @@ if (emailConfermata === true) {
 } else {
     alert("Email Non Valida");
 }
+console.log(emailConfermata);
