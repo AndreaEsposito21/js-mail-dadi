@@ -2,12 +2,13 @@
 
 // Tiro dadi
 var tiraDado = prompt(' Scrivi "Tira Dado" ');
-
+var tiroDadoUmano = Math.floor((Math.random() * 6) + 1);
+var tiroDadoComputer = Math.floor((Math.random() * 6) + 1);
 
 // Numeri Random
 if (tiraDado === "Tira Dado") {
-    var dadoUmano = Math.floor((Math.random() * 6) + 1);
-    var dadoComputer = Math.floor((Math.random() * 6) + 1);
+    var dadoUmano = tiroDadoUmano;
+    var dadoComputer = tiroDadoComputer;
 
 } else {
     alert("Comando invalido");
